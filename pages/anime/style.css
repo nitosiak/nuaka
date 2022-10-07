@@ -1,4 +1,20 @@
 :root {
     --red:  #EA5E5E;
-    --yellow: 
+    --yellow: #F7BA3E;
+    --blue: #56B3B4;
+    --purple: #BF85BF;
+    --backround: #1A2B34;
+    --gray: #334651;
+    --unit: 10px;
+}
+
+body {
+    background: var(--backround);
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.container {
+    width: 500px;
 }

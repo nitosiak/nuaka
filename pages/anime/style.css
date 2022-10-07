@@ -31,4 +31,5 @@ body {
 .cell {
     height: 100%;
     width: calc(var(--size, 2)*var(--unit));
+    background-color: var(--gray);
 }

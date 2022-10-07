@@ -16,5 +16,19 @@ body {
 }
 
 .container {
-    width: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--unit)
+}
+
+.row {
+   height: var(--unit);
+   display: flex;
+   gap: var(--unit)
+}
+
+.cell {
+    height: 100%;
+    width: calc(var(--size, 2)*var(--unit));
 }
